@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripition" content="Minha landing page, projeto 4.">
+    <title>Flamengo / Felipe Carneiro</title>
+    <style type="text/css">
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem{
+    height: 72px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item{
+    font-family: sarala;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo{
+    border-top: 0.4px solid #fff2e7;
+    margin-bottom: 48px;
+}
+.conteudo-principal{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px #fff2e7;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2f2325;
+}
+.conteudo-principal-imagem{
+    height: 430px;
+    padding: 10px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+    margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo{
+    font-weight: 300;
+    font-family: 'sarala', sans-serif;
+    font-size: 18px;
+    color: #ecd6c4;
+}
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+    </style>
+</head>
+
+<body>
+    <header class="cabecalho">
+      <img class="cabecalho-imagem"src="img/skull-logo-png.webp" alt="logo da page">
+      <nav class="cabecalho-menu">
+        <a href="https://colunadofla.com/tag/comunidade/" target="_blank" class="cabecalho-menu-item">Comunidade Flamengo</a>
+        <a href="https://www.flamengo.com.br/titulosdoflamengo" target="_blank" class="cabecalho-menu-item">Títulos</a>
+        <a href="https://www.youtube.com/watch?v=nxG9pPFQMsg" target="_blank" class="cabecalho-menu-item">Libertadores 2022</a>
+        <a class="cabecalho-menu-item">Sobre</a>
+      </nav>
+    </header>  
+       
+ <main class="conteudo">
+    <section class="conteudo-principal">
+        <div class="conteudo-principal-escrito">
+          <h1 class="conteudo-principal-escrito-titulo">Flamengo</h1>
+          <h2 class="conteudo-principal-escrito-subtitulo">Tudo sobre o Clube de Regatas do Flamengo</h2>
+          <a href="https://api.whatsapp.com/send?phone=5598984176402&text=Quero%20ser%20Flamengo%2C%20Eu%20nasci%20Flamengo..."><button class="conteudo-principal-escrito-botao">Entre Aqui</button></a>
+        </div>
+        <img class="conteudo-principal-imagem" src="img/madara2.png" alt="imagem-carneiro">
+    </section>
+
+   <section class="conteudo-secundario">
+    <h3 class="conteudo-secundario-titulo">Sobre</h3>
+    <p class="conteudo-secundario-paragrafo">O <strong>Clube de Regatas do Flamengo</strong> foi o clube que venceu a taça da libertores 2022, conquistando assim seu terceiro título</p>
+    <p class="conteudo-secundario-paragrafo">Ele possui a <strong>maior e mais querida torcida do mundo, com 48 milhões de adpetos</strong></p>
+    <p class="conteudo-secundario-paragrafo">É considerado um dos <strong>maiores clubes do mundo</strong>, atrás apenas do Real Madrid</p>
+   </section>
+ </main>
+ <footer class="rodape">
+    <img class="rodape-imagem" src="img/madara3.png" alt="imagem-madara">
+ </footer>
+</body>
+
+</html>
